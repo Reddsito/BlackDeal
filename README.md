@@ -1,6 +1,6 @@
-# [Nombre de tu emprendimiento]
+# BlackDeal
 
-**[Nombre de tu emprendimiento]** es una plataforma diseñada para ofrecer **descuentos exclusivos** en compras realizadas a través de **Amazon**. Nuestra principal herramienta es una **calculadora de precios** que te permite calcular el precio final de tus productos con el descuento aplicado, optimizando tus compras.
+**BlackDeal** es una plataforma diseñada para ofrecer **descuentos exclusivos** en compras realizadas a través de **Amazon**. Nuestra principal herramienta es una **calculadora de precios** que te permite calcular el precio final de tus productos con el descuento aplicado, optimizando tus compras.
 
 ## 🚀 Funcionalidades principales
 
@@ -11,10 +11,8 @@
 
 ## 🛠️ Tecnologías utilizadas
 
-- **Frontend**: Next.js, TypeScript, Zustand, React Bootstrap Icons, Framer Motion.
-- **Backend**: PHP con PDO (MySQL), Node.js.
-- **CMS**: Sanity.
-- **Base de datos**: MySQL.
+- **Frontend**: Next.js, TypeScript, Zustand, Shadcn/ui, Zod, Framer Motion, y mucho más.
+- **Base de datos**: PostgresSql.
 
 ## 📦 Instalación
 

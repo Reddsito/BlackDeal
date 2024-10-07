@@ -15,7 +15,7 @@ const QuoteForm = () => {
 		if (step === 2) setStep(1);
 	};
 
-	const handleSubmit = (e) => {
+	const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
 		console.log("Enviando cotización...");
 	};

@@ -8,18 +8,12 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 	children: ReactNode;
 }
 
-const Button: React.FC<ButtonProps> = ({
-	onClick,
-	className,
-	children,
-	...props
-}) => (
+const Button: React.FC<ButtonProps> = ({ onClick, className, children }) => (
 	<motion.button
 		whileHover={{ scale: 1.05 }}
 		whileTap={{ scale: 0.95 }}
 		onClick={onClick}
-		className={`px-4 py-2 rounded-lg transition-colors duration-300 ${className}`}
-		{...props}>
+		className={`px-4 py-2 rounded-lg transition-colors duration-300 ${className}`}>
 		{children}
 	</motion.button>
 );
